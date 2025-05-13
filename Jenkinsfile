@@ -40,7 +40,7 @@ pipeline {
 
         stage('Deploy to Production') {
             steps {
-                echo 'Stage 7: Deploy to Production – Deploying application to AWS EC2.'
+                echo 'Stage 7: Deploy to Production – Deploying application to AWS EC2. Added line of code to test automation changes'
             }
         }
     }
